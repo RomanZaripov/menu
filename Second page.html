@@ -3,13 +3,35 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Second page</title>
+	<link rel="stylesheet" href="submenu.css">
 </head>
 <body>
-	<h1>Second page</h1>
-	<ul>
-		<li><a title="Туточки ссылка на первую страницу" href="First page.html">First page</a></li>
-		<li><a title="Туточки заглушка" href="#">Second page</a></li>
-		<li><a title="А тут ссылка на третью" href="Third page.html">Third page</a></li>
+	<h1>Contacts</h1>
+	<ul class="main-menu">
+		<li>
+			<a class="main-item" title="Туточки ссылка на первую страницу" href="First page.html"><span class="menu-icon"><img width="10px" src="icon.png"></span>Home</a>
+			<ul class="sub-menu">
+				<li><a href="#">1.1</a></li>
+				<li><a href="#">1.2</a></li>
+				<li><a href="#">1.3</a></li>
+			</ul>
+		</li>
+		<li>
+			<a class="main-item" title="Туточки заглушка" href="#"><img width="10px" src="contacts.png">Contacts</a>
+			<ul class="sub-menu">
+				<li><a href="#">2.1</a></li>
+				<li><a href="#">2.2</a></li>
+				<li><a href="#">2.3</a></li>
+			</ul>
+		</li>
+		<li>
+			<a class="main-item" title="А тут ссылка на третью" href="Third page.html"><img width="10px" src="Delivery.png">Delivery</a>
+			<ul class="sub-menu">
+				<li><a href="#">3.1</a></li>
+				<li><a href="#">3.2</a></li>
+				<li><a href="#">3.3</a></li>
+			</ul>
+		</li>
 	</ul>
 	
 </body>
